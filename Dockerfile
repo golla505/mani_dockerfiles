@@ -8,7 +8,7 @@ WORKDIR /app
 ADD connect-0.0.1-SNAPSHOT.jar connect-0.0.1-SNAPSHOT.jar 
 
 # Expose the port your Spring Boot app runs on
-EXPOSE 8088
+EXPOSE 8089
 
 # Command to run the application
 CMD ["java", "-jar", "/app/connect-0.0.1-SNAPSHOT.jar"]
